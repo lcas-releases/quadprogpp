@@ -1,0 +1,12 @@
+Source: ros-melodic-quadprogpp
+Section: misc
+Priority: optional
+Maintainer: Marc Hanheide <marc@hanheide.net>
+Build-Depends: debhelper (>= 9.0.0), cmake, ros-melodic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-quadprogpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, cmake
+Description: The quadprogpp package: A C++ library for Quadratic Programming which implements the Goldfarb-Idnani active-set dual method.
